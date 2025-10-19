@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",               
+    "module": "commonjs",          
+    "rootDir": "src",              
+    "outDir": "dist",              
+    "strict": true,                
+    "esModuleInterop": true,       
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
+
+/*
+"target": "ES6" — компиляция в стандарт ES6 (поддерживается современными браузерами);
+
+"module": "commonjs" — формат модулей для Node.js;
+
+"rootDir": "src" — где лежат твои .ts файлы;
+
+"outDir": "dist" — куда будет складываться скомпилированный JavaScript;
+
+"strict": true — строгая типизация (лучше оставить включённой);
+
+"esModuleInterop": true — позволяет использовать import с модулями CommonJS.
+*/
